@@ -1,0 +1,223 @@
+  body {
+    font-family:'Times New Roman', Times, serif ;
+    background: lightgrey;
+    font-size: 21px;
+ }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 15px;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  .prograd {
+    font-weight: 500;
+    font-size: 45px;
+    color: orangered;
+  }
+  
+  .nav-link {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    color: orangered;
+  }
+  
+  
+   #home {
+    background: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+    header div p {
+    font-size: 30px;
+    font-weight: 150;
+  }
+    h1,h2,h3,h4 {
+    font-weight: 700;
+  }
+   
+    h1{
+      font-size: 80px;
+  }
+
+    h2 {
+    font-size: 60px;;
+  }
+  
+    h3 {
+    font-size: 40px;
+  }
+  
+    h4 {
+    font-size: 28px;
+  }
+
+    .link-button {
+    text-align: center;
+    background: orangered;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+  }
+  
+    .link-button:hover {
+    color: white;
+  }
+  
+    #mydetails {
+    display: flex;
+    align-items: center;
+  }
+  
+   #mydetails article * {
+    margin: 20px;
+  }
+  
+   .break {
+    display: block;
+  }
+  
+   #mydetails img {
+    width: 350px;
+    height: 350px;
+    border-radius: 65%;
+    margin: 100px;
+  }
+  
+    p {
+    font-size: 25px;
+  }
+  
+    #portfolio {
+    background-color: black;
+    color: white;
+  }
+    hr {
+    width: 500px;
+  }
+  
+    #portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+    #portfolio,#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+  #portfolio div article {
+    background: white;
+    color: black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+   #portfolio h3,p {
+  margin-bottom : 10px;
+  /*margin-top: 10px;*/
+ }
+
+  #portfolio div article p {
+    padding: 0 10px;
+ }
+  
+   #skills-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+   #skills-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+   #skills ul {
+    list-style: none;
+  }
+  
+   #skills ul li {
+    margin: 10px 0;
+  }
+  
+   progress[value] {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 350px;
+  }
+  
+    progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 2px;
+  }
+  
+    ::-webkit-progress-value {
+    background-color: orangered;
+  }
+  
+    #skills ul {
+    font-size: 24px;
+  }
+  
+    #contact {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+  }
+    
+  #contact form input:last-child {
+    margin-top: 30px;
+  }
+  
+    .input {
+    border-color: black;
+    line-height: 30px;
+    width: 350px;
+    border-radius: 3px;
+    margin: 20px 0;
+  }
+      
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
